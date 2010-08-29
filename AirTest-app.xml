@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<application xmlns="http://ns.adobe.com/air/application/2.0">
+	<id>AIR2-Test</id>
+	<version>2.0</version>
+	<filename>AIR2 Testapp</filename>
+	<name>AIR2 Testapp</name>
+	<description>
+		<text xml:lang="en">www.beautifycode.com</text>
+	</description>
+	<copyright>Copyright (c) 2010 Marvin Blase</copyright>
+	<initialWindow>
+		<title>Beautify Code AIR2 Testapp</title>
+		<content>AirTest.swf</content>
+		<systemChrome>none</systemChrome>
+		<transparent>true</transparent>
+		<visible>true</visible>
+		<minimizable>true</minimizable>
+		<maximizable>false</maximizable>
+		<resizable>false</resizable>
+		<width>505</width>
+		<height>245</height>
+
+	</initialWindow>
+	<installFolder>Beautify Code/AIR2 Testapp</installFolder>
+	<programMenuFolder>Beautify Code</programMenuFolder>
+	<icon>
+		<image16x16>icons/AIRApp_16.png</image16x16>
+		<image32x32>icons/AIRApp_32.png</image32x32>
+		<image48x48>icons/AIRApp_48.png</image48x48>
+		<image128x128>icons/AIRApp_128.png</image128x128>
+	</icon>
+	<customUpdateUI>true</customUpdateUI>
+	<allowBrowserInvocation>false</allowBrowserInvocation>
+	<fileTypes>
+		<fileType>
+			<name>adobe.VideoFile</name>
+			<extension>avf</extension>
+			<description>Adobe Video File</description>
+			<contentType>application/vnd.adobe.video-file</contentType>
+			<icon>
+				<image16x16>icons/AIRApp_16.png</image16x16>
+				<image32x32>icons/AIRApp_32.png</image32x32>
+				<image48x48>icons/AIRApp_48.png</image48x48>
+				<image128x128>icons/AIRApp_128.png</image128x128>
+			</icon>
+		</fileType>
+	</fileTypes>
+</application>
